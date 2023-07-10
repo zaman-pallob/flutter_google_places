@@ -9,7 +9,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  google_api_headers: ^2.0.0
+  google_api_headers:
+   git:
+      url: https://github.com/zaman-pallob/google_api_headers.git
+      ref: main
   google_maps_webservice:
    git:
       url: https://github.com/zaman-pallob/google_maps_webservice.git
